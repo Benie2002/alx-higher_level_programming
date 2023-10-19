@@ -1,3 +1,2 @@
--- Create a table called 'first_table'
--- 'first_table' should have (id INT) and (name VARCHAR(256))
-CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
+-- Creates a table called first_table with values id and name in my MySQL server.
+CREATE TABLE IF NOT EXISTS `first_table` (`id` INT, `name` VARCHAR(256));
